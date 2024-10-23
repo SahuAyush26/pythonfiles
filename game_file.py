@@ -87,7 +87,7 @@ if a1 == answers[0]:
 else:
   print("wrong answer")
 
-print("you have earned rupees", money)
+print("you have earned rupeees", money)
 
 hs = f"Your latest high score is {money}"
 
@@ -106,4 +106,5 @@ with open("high_score.txt", "r+") as f:
       f.write(hs)
    
    
+print("Hell No!")
    
